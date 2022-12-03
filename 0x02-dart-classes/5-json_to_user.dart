@@ -14,9 +14,9 @@ class User {
   Map toJson() {
     return {
       "id": this.id,
-      "name": name,
-      "age": age,
-      "height": height
+      "name":name,
+      "age":age,
+      "height":height
     };
   }
 
@@ -33,5 +33,5 @@ class User {
 
   // Override default toString() method
   @override
-  String toString() => "User(id : $id ,name: $name,  age: $age, height: $height)";
+  String toString() => "User(id : $id ,name: $name, age: $age, height: $height)";
 }
